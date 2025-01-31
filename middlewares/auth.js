@@ -1,4 +1,9 @@
 import jwt from "jsonwebtoken";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const secretKey = process.env.JWT_SECRET;
 
 // Middleware de autenticación
 export const auth = (req, res, next) => {

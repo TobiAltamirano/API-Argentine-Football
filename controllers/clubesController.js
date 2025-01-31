@@ -28,12 +28,10 @@ export const createClubes = async (req, res) => {
   try {
     // Validamos que se envíen los datos necesarios
     const { nombre, provincia, titulos } = req.body;
-    if (!nombre || !provincia || !titulos) {
-      return res
-        .status(400)
-        .json({
-          error: "Faltan datos necesarios (nombre, provincia, titulos).",
-        });
+    if (!nombre || !provincia) {
+      return res.status(400).json({
+        error: "Faltan datos necesarios (nombre, provincia, titulos).",
+      });
     }
 
     const club = new clubesModel({ ...req.body });

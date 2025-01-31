@@ -1,4 +1,5 @@
 import express from "express";
+import { auth } from "../middlewares/auth.js";
 import {
   getClubes,
   getClubesById,
@@ -21,8 +22,8 @@ router.get("/search/caracteristicas", searchByCaracteristicas);
 router.get("/search/nombre", searchByName);
 router.get("/ordenados/titulos", getClubesOrdenadosPorTitulos);
 router.get("/paginados", getClubesPaginados);
-router.post("/", createClubes); // Requiere Auth::JWT
-router.put("/:id", updateClubes); // Requiere Auth::JWT
-router.delete("/:id", deleteClubes); // Requiere Auth::JWT
+router.post("/", auth, createClubes); // Requiere Auth::JWT
+router.put("/:id", auth, updateClubes); // Requiere Auth::JWT
+router.delete("/:id", auth, deleteClubes); // Requiere Auth::JWT
 
 export default router;

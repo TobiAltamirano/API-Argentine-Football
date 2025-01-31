@@ -6,7 +6,6 @@ import usuariosModel from "../models/usuariosModel.js";
 dotenv.config();
 // Clave secreta para JWT (debe almacenarse en .env)
 const secretKey = process.env.JWT_SECRET;
-console.log(secretKey);
 
 // Crear usuario
 export const createUser = async (req, res) => {
