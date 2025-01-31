@@ -1,0 +1,207 @@
+[
+  {
+    "nombre": "River Plate",
+    "fundacion": 1901,
+    "estadio": "Estadio Monumental",
+    "titulos": 70,
+    "apodo": "Millonarios",
+    "caracteristicas": [
+      "Grande",
+      "Intercontinental",
+      "Libertadores",
+      "Sudamericana",
+      "Menotista",
+      "Cantera"
+    ],
+    "clasico_rival": "Boca Juniors",
+    "provincia": "Buenos Aires",
+    "ciudad": "Capital Federal"
+  },
+  {
+    "nombre": "Boca Juniors",
+    "fundacion": 1905,
+    "estadio": "La Bombonera",
+    "titulos": 52,
+    "apodo": "Xeneizes",
+    "caracteristicas": [
+      "Grande",
+      "Intercontinental",
+      "Libertadores",
+      "Sudamericana"
+    ],
+    "clasico_rival": "River Plate",
+    "provincia": "Buenos Aires",
+    "ciudad": "Capital Federal"
+  },
+  {
+    "nombre": "Racing Club",
+    "fundacion": 1903,
+    "estadio": "Cilindro de Avellaneda",
+    "titulos": 18,
+    "apodo": "La Academia",
+    "caracteristicas": [
+      "Grande",
+      "Intercontinental",
+      "Libertadores",
+      "Sudamericana",
+      "Menotista"
+    ],
+    "clasico_rival": "Independiente",
+    "provincia": "Buenos Aires",
+    "ciudad": "Avellaneda"
+  },
+  {
+    "nombre": "Independiente",
+    "fundacion": 1905,
+    "estadio": "Libertadores de América",
+    "titulos": 16,
+    "apodo": "El Rojo",
+    "caracteristicas": [
+      "Grande",
+      "Intercontinental",
+      "Libertadores",
+      "Sudamericana"
+    ],
+    "clasico_rival": "Racing Club",
+    "provincia": "Buenos Aires",
+    "ciudad": "Avellaneda"
+  },
+  {
+    "nombre": "San Lorenzo",
+    "fundacion": 1908,
+    "estadio": "Pedro Bidegain",
+    "titulos": 15,
+    "apodo": "El Ciclón",
+    "caracteristicas": [
+      "Grande",
+      "Libertadores",
+      "Sudamericana",
+      "Mercosur",
+      "Bilardista"
+    ],
+    "clasico_rival": "Huracán",
+    "provincia": "Buenos Aires",
+    "ciudad": "Capital Federal"
+  },
+  {
+    "nombre": "Huracán",
+    "fundacion": 1908,
+    "estadio": "Tomás Adolfo Ducó",
+    "titulos": 1,
+    "apodo": "El Globo",
+    "caracteristicas": ["Popular", "Menotista"],
+    "clasico_rival": "San Lorenzo",
+    "provincia": "Buenos Aires",
+    "ciudad": "Capital Federal"
+  },
+  {
+    "nombre": "Estudiantes de La Plata",
+    "fundacion": 1905,
+    "estadio": "Jorge Luis Hirschi",
+    "titulos": 6,
+    "apodo": "El Pincha",
+    "caracteristicas": [
+      "Intercontinental",
+      "Libertadores",
+      "Sudamericana",
+      "Bilardista"
+    ],
+    "clasico_rival": "Gimnasia y Esgrima La Plata",
+    "provincia": "Buenos Aires",
+    "ciudad": "La Plata"
+  },
+  {
+    "nombre": "Gimnasia y Esgrima La Plata",
+    "fundacion": 1887,
+    "estadio": "Juan Carmelo Zerillo",
+    "titulos": 1,
+    "apodo": "El Lobo",
+    "caracteristicas": ["Bilardista", "Popular"],
+    "clasico_rival": "Estudiantes de La Plata",
+    "provincia": "Buenos Aires",
+    "ciudad": "La Plata"
+  },
+  {
+    "nombre": "Vélez Sarsfield",
+    "fundacion": 1910,
+    "estadio": "José Amalfitani",
+    "titulos": 10,
+    "apodo": "El Fortín",
+    "caracteristicas": [
+      "Intercontinental",
+      "Libertadores",
+      "Sudamericana",
+      "Bilardista",
+      "Cantera"
+    ],
+    "clasico_rival": "Ferro Carril Oeste",
+    "provincia": "Buenos Aires",
+    "ciudad": "Capital Federal"
+  },
+  {
+    "nombre": "Newell's Old Boys",
+    "fundacion": 1903,
+    "estadio": "Coloso del Parque",
+    "titulos": 6,
+    "apodo": "La Lepra",
+    "caracteristicas": ["Interior", "Popular", "Menotista"],
+    "clasico_rival": "Rosario Central",
+    "provincia": "Santa Fe",
+    "ciudad": "Rosario"
+  },
+  {
+    "nombre": "Rosario Central",
+    "fundacion": 1889,
+    "estadio": "Gigante de Arroyito",
+    "titulos": 4,
+    "apodo": "Canallas",
+    "caracteristicas": ["Interior", "Popular", "Menotista"],
+    "clasico_rival": "Newell's Old Boys",
+    "provincia": "Santa Fe",
+    "ciudad": "Rosario"
+  },
+  {
+    "nombre": "Argentinos Juniors",
+    "fundacion": 1904,
+    "estadio": "Diego Armando Maradona",
+    "titulos": 3,
+    "apodo": "El Bicho",
+    "caracteristicas": ["Menotista", "Cantera", "Libertadores"],
+    "clasico_rival": "Platense",
+    "provincia": "Buenos Aires",
+    "ciudad": "Capital Federal"
+  },
+  {
+    "nombre": "Platense",
+    "fundacion": 1905,
+    "estadio": "Ciudad de Vicente López",
+    "titulos": 0,
+    "apodo": "El Calamar",
+    "caracteristicas": ["Popular"],
+    "clasico_rival": "Argentinos Juniors",
+    "provincia": "Buenos Aires",
+    "ciudad": "Vicente López"
+  },
+  {
+    "nombre": "Talleres de Córdoba",
+    "fundacion": 1913,
+    "estadio": "Mario Alberto Kempes",
+    "titulos": 1,
+    "apodo": "La T",
+    "caracteristicas": ["Interior", "Popular"],
+    "clasico_rival": "Belgrano",
+    "provincia": "Córdoba",
+    "ciudad": "Córdoba"
+  },
+  {
+    "nombre": "Belgrano",
+    "fundacion": 1905,
+    "estadio": "Gigante de Alberdi",
+    "titulos": 0,
+    "apodo": "El Pirata",
+    "caracteristicas": ["Interior", "Popular"],
+    "clasico_rival": "Talleres de Córdoba",
+    "provincia": "Córdoba",
+    "ciudad": "Córdoba"
+  }
+]

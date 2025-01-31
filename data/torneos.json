@@ -1,0 +1,34 @@
+[
+  {
+    "nombre": "Copa Libertadores",
+    "descripcion": "El torneo más importante de clubes de fútbol en América del Sur. Participan equipos de diferentes países sudamericanos.",
+    "region": "América del Sur",
+    "creacion": 1960,
+    "campeones": [],
+    "clasificados": []
+  },
+  {
+    "nombre": "Copa Sudamericana",
+    "descripcion": "El segundo torneo más importante a nivel de clubes en América del Sur, organizado por la CONMEBOL.",
+    "region": "América del Sur",
+    "creacion": 2002,
+    "campeones": [],
+    "clasificados": []
+  },
+  {
+    "nombre": "Copa Argentina",
+    "descripcion": "El torneo nacional de fútbol de Argentina, en el que participan equipos de todas las divisiones del fútbol argentino.",
+    "region": "Argentina",
+    "creacion": 2011,
+    "campeones": [],
+    "clasificados": []
+  },
+  {
+    "nombre": "Liga Profesional",
+    "descripcion": "La máxima categoría del fútbol argentino, que agrupa a los clubes más importantes del país.",
+    "region": "Argentina",
+    "creacion": 2019,
+    "campeones": [],
+    "clasificados": []
+  }
+]

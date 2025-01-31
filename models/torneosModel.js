@@ -8,6 +8,7 @@ const torneosSchema = new Schema({
   region: { type: String, required: true },
   creacion: { type: Number, required: true },
   campeones: [{ type: Schema.Types.ObjectId, ref: "Club" }], // Referencia a clubes campeones
+  clasificados: [{ type: Schema.Types.ObjectId, ref: "Club" }], // Referencia a clubes clasificados
 });
 
 export default mongoose.model("Torneo", torneosSchema);
