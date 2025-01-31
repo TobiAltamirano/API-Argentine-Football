@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import clubesRoutes from "./routes/clubesRoutes.js";
 import torneosRoutes from "./routes/torneosRoutes.js";
+import usuariosRoutes from "./routes/usuariosRoutes.js";
 
 dotenv.config();
 
@@ -26,5 +27,6 @@ app.use(express.json());
 
 app.use("/clubes", clubesRoutes);
 app.use("/torneos", torneosRoutes);
+app.use("/usuarios", usuariosRoutes);
 
 app.listen(port, () => console.log("http://localhost:" + port));
