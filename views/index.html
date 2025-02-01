@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Endpoints</title>
+    <style>
+      body {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        background-color: #efb810;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #1f1f1f;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      h2 {
+        color: #1f1f1f;
+      }
+      .container {
+        padding: 20px;
+      }
+      .endpoint {
+        background-color: #1f1f1f;
+        padding: 15px;
+        margin: 10px auto;
+        width: 80%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+      }
+      .endpoint a {
+        color: #efb810;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .endpoint a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .section-final {
+        margin-bottom: 4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>⚽ API Endpoints - Futboleros ⚽</header>
+    <div class="container">
+      <div class="section">
+        <!-- <div class="endpoint">
+          🔹 <strong>Registrar Usuario:</strong>
+          <a href="/api/register">POST /api/register</a>
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Iniciar Sesión:</strong>
+          <a href="/api/login">POST /api/login</a>
+        </div> -->
+      </div>
+
+      <div class="section">
+        <h2>Torneos</h2>
+        <div class="endpoint">
+          🔹 <strong>Obtener Torneos:</strong>
+          <a href="http://localhost:3000/torneos">GET torneos</a>
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Obtener Torneo por ID:</strong>
+          <a href="http://localhost:3000/torneos/:id">GET torneos/:id</a>
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Buscar Torneo por Nombre:</strong>
+          <a href="http://localhost:3000/torneos/search/nombre"
+            >GET torneos/search/nombre</a
+          >
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Crear Torneo:</strong>
+          <a href="http://localhost:3000/torneos">POST torneos</a> (🔒 Auth JWT)
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Actualizar Torneo:</strong>
+          <a href="http://localhost:3000/torneos/:id">PUT torneos</a> (🔒 Auth
+          JWT)
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Eliminar Torneo:</strong>
+          <a href="http://localhost:3000/torneos/:id">DELETE torneos</a> (🔒
+          Auth JWT)
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Clubes</h2>
+        <div class="endpoint">
+          🔹 <strong>Obtener Clubes:</strong>
+          <a href="http://localhost:3000/clubes/">GET clubes</a>
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Obtener Club por ID:</strong>
+          <a href="http://localhost:3000/clubes/:id">GET clubes/:id</a>
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Filtrar por Provincia:</strong>
+          <a href="http://localhost:3000/clubes/provincia/:provincia"
+            >GET /api/clubes/provincia/:provincia</a
+          >
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Buscar por Características:</strong>
+          <a href="http://localhost:3000/clubes/search/caracteristicas"
+            >GET /api/clubes/search/caracteristicas</a
+          >
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Buscar por Nombre:</strong>
+          <a href="http://localhost:3000/clubes/search/nombre"
+            >GET /api/clubes/search/nombre</a
+          >
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Clubes Ordenados por Títulos:</strong>
+          <a href="http://localhost:3000/clubes/ordenados/titulos"
+            >GET /api/clubes/ordenados/titulos</a
+          >
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Clubes Paginados:</strong>
+          <a href="http://localhost:3000/clubes/paginados"
+            >GET /api/clubes/paginados</a
+          >
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Crear Club:</strong>
+          <a href=http://localhost:3000/clubes>POST /api/clubes</a> (🔒 Auth JWT)
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Actualizar Club:</strong>
+          <a href=http://localhost:3000/clubes/:id>PUT /api/clubes/:id</a> (🔒 Auth JWT)
+        </div>
+        <div class="endpoint">
+          🔹 <strong>Eliminar Club:</strong>
+          <a href=http://localhost:3000/clubes/:id>DELETE /api/clubes/:id</a> (🔒 Auth JWT)
+        </div>
+      </div>
+
+      <div class="section-final">
+        <h2>Usuarios</h2>
+        <div class="endpoint">
+          🔹 <strong>Obtener Usuarios:</strong>
+          <a href="/api/usuarios">GET /api/usuarios</a> (🔒 Auth JWT)
+        </div>
+      </div>
+    </div>
+    <footer>Creado por Tobias Altamirano ⚽</footer>
+  </body>
+</html>
