@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import path from "path";
 import clubesRoutes from "./routes/clubesRoutes.js";
 import torneosRoutes from "./routes/torneosRoutes.js";
 import usuariosRoutes from "./routes/usuariosRoutes.js";
@@ -28,5 +29,10 @@ app.use(express.json());
 app.use("/clubes", clubesRoutes);
 app.use("/torneos", torneosRoutes);
 app.use("/usuarios", usuariosRoutes);
+
+// Servir el archivo index.html en la ruta raíz
+app.get("/", (req, res) => {
+  res.sendFile(path.join(process.cwd(), "./views/index.html"));
+});
 
 app.listen(port, () => console.log("http://localhost:" + port));
